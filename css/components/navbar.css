@@ -1,0 +1,33 @@
+nav{
+    margin-bottom: 50px;
+    padding : 20px 50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    top:0;    
+    box-sizing:border-box;
+    background-color:#F9F9FA;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.nav-search{
+    width:30%;
+}
+
+.nav-search input{
+    margin:0px 180px;
+    width:100%;
+    padding : 5px 5px;
+    border-radius:7px;
+}
+
+.nav-login input:not([type="submit"]){
+    width:150px;
+    padding : 5px 5px;
+    border-radius:7px;
+}

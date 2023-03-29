@@ -1,0 +1,33 @@
+@import "../css/reset.css";
+
+
+@import "../css/components/navbar.css";
+@import "../css/components/postpreviews.css";
+
+main{
+    margin-top:20px;
+    padding-top:70px;
+    display:flex;
+    flex-direction: column;
+    background-color:#DAE0E6;
+}
+
+.bottombuttons{
+    margin:auto;
+    width:25%;
+    display:flex;
+    justify-content:space-between;
+    padding: 20px 0px;
+    margin-bottom:60px;
+}
+
+.bottombuttons button{
+    padding : 2px 6px;
+    width: 80px;
+    height: 40px;
+    text-align:center;
+}
+.hidden{
+    display:none;
+}
+

@@ -3,6 +3,7 @@
 
 @import "../css/components/navbar.css";
 @import "../css/components/postpreviews.css";
+@import "../css/components/postpage.css";
 
 main{
     margin-top:20px;

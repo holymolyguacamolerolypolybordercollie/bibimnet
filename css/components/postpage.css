@@ -1,0 +1,80 @@
+
+.post{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    height:auto;
+    background-color:#f9f9f9;
+    padding : 30px 50px;
+    box-sizing:border-box;
+    border:1px solid #f9f9f9;
+    border-radius: 10px;
+    margin-bottom:50px;
+}
+
+.post h2 {
+    font-size: 20px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.post-profile{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.post-profile span{
+    font-size:16px;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+
+.post-main img{
+
+    width:400px;
+    height:400px;
+    margin-bottom: 12px;
+}
+
+.post-stats_icons{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin: 20px 0px;
+    font-size: 22px;
+}
+
+.post-stats_icons span{
+    margin-right:7px;
+}
+
+.ddabong{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-right:12px;
+}
+.unddabong{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-right:12px;
+}
+
+.comments{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.comments input:first-child{
+    width:300px;
+    height:20px;
+    padding: 10px 5px;
+}

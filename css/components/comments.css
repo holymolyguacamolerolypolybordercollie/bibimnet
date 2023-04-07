@@ -1,0 +1,36 @@
+.written_comments{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding: 10px 0px;
+    border-top:1px solid rgba(120,120,120,1);
+    margin-bottom:20px;
+}
+
+.written_comment{
+    width:100%;
+    padding: 10px 0px;
+    border-bottom:1px solid rgba(120,120,120,1);
+    margin-bottom:10px;
+}
+
+.comment-stats{
+    margin-top:10px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    
+}
+
+.comment-ddabong, .comment-unddabong{
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-right:8px;
+}
+
+.comment-stats span{
+    margin-right:5px;
+}

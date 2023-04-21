@@ -83,5 +83,11 @@
         </div>
         <script src="../js/login.js"></script>
         <script src="../js/profilerecords.js"></script>
+        <script>
+            const loggedID = localStorage.getItem("ID");
+            if(loggedID){
+                $userinfo_ID.innerText = loggedID;
+            }
+        </script>
 </body>
 </html>

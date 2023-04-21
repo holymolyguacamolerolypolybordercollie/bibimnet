@@ -27,8 +27,7 @@ if(loggedID){
     $profile.classList.remove("hidden");
     $loginForm.classList.add("hidden");
     $navID.innerText = loggedID;
-    $userinfo_ID.innerText = loggedID;
-
+   
 
 }
 else{

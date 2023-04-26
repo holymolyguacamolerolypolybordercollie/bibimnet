@@ -60,6 +60,7 @@ function registerComment(event){
     const chatIconSpan = document.createElement("span");
     chatIconSpan.classList.add("material-symbols-rounded");
     chatIconSpan.innerText = "chat";
+    chatIconSpan.classList.add("dadatgulbtn");
     const bookmarkIconSpan = document.createElement("span");
     bookmarkIconSpan.classList.add("material-symbols-rounded");
     bookmarkIconSpan.innerText = "bookmark";
@@ -73,7 +74,28 @@ function registerComment(event){
     $newWrittenComment.appendChild(commentStatsDiv);
     $writtenComments.append($newWrittenComment);
    
+    //대댓글 작성기능
 
 }
 
-//대댓글 작성 기능
+
+
+const $dadatgulbutton = document.querySelectorAll(".dadatgulbtn");
+
+$dadatgulbutton[0].addEventListener("click",addDadatgul);
+
+
+function addDadatgul(event){
+
+    //댓글창 켜고끄기
+    const dadatgulform = document.querySelector(".dadatgulform");
+
+    if(dadatgulform.classList.contains("hidden")){
+    dadatgulform.classList.remove("hidden");
+    }
+    else{
+        dadatgulform.classList.add("hidden");
+    }
+
+   
+}
